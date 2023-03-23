@@ -1,0 +1,885 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineSystem.cmake:204 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/MinGW/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        C:/Users/Marin/Downloads/v02/build/CMakeFiles/3.26.0-rc5/CompilerIdC/a.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/MinGW/bin/g++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        C:/Users/Marin/Downloads/v02/build/CMakeFiles/3.26.0-rc5/CompilerIdCXX/a.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-zoc86w"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-zoc86w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-zoc86w
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_29a75/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_29a75.dir\\build.make CMakeFiles/cmTC_29a75.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-zoc86w'
+        Building C object CMakeFiles/cmTC_29a75.dir/CMakeCCompilerABI.c.obj
+        C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../gcc-4.5.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-werror --build=mingw32 --prefix=/mingw
+        Thread model: win32
+        gcc version 4.5.2 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+         c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/ C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Marin\\AppData\\Local\\Temp\\ccA6b8cT.s
+        GNU C (GCC) version 4.5.2 (mingw32)
+        	compiled by GNU C version 4.5.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/../../../../mingw32/include"
+        ignoring duplicate directory "/mingw/lib/gcc/mingw32/4.5.2/../../../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include-fixed"
+        ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/../../../../mingw32/include"
+        ignoring duplicate directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/../../../../include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include-fixed
+        End of search list.
+        GNU C (GCC) version 4.5.2 (mingw32)
+        	compiled by GNU C version 4.5.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 48c0bd49e9a9404f24c600b71b435d06
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+         c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/as.exe -o CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Marin\\AppData\\Local\\Temp\\ccA6b8cT.s
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.5.2/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386'
+        Linking C executable cmTC_29a75.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_29a75.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_29a75.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_29a75.dir/objects.a @CMakeFiles\\cmTC_29a75.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_29a75.dir/objects.a -Wl,--no-whole-archive -o cmTC_29a75.exe -Wl,--out-implib,libcmTC_29a75.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../gcc-4.5.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-werror --build=mingw32 --prefix=/mingw
+        Thread model: win32
+        gcc version 4.5.2 (GCC) 
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.5.2/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29a75.exe' '-mtune=i386' '-march=i386'
+         c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/collect2.exe -Bdynamic -o cmTC_29a75.exe c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../.. -L/mingw/lib --whole-archive CMakeFiles\\cmTC_29a75.dir/objects.a --no-whole-archive --out-implib libcmTC_29a75.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-zoc86w'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include-fixed]
+        end of search list found
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../include] ==> [C:/MinGW/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include-fixed] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/include-fixed]
+        implicit include dirs: [C:/MinGW/include;C:/MinGW/lib/gcc/mingw32/4.5.2/include;C:/MinGW/lib/gcc/mingw32/4.5.2/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-zoc86w]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_29a75/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_29a75.dir\\build.make CMakeFiles/cmTC_29a75.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-zoc86w']
+        ignore line: [Building C object CMakeFiles/cmTC_29a75.dir/CMakeCCompilerABI.c.obj]
+        ignore line: [C:\\MinGW\\bin\\gcc.exe   -v -o CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../gcc-4.5.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-werror --build=mingw32 --prefix=/mingw]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 4.5.2 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/cc1.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/ C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj -version -o C:\\Users\\Marin\\AppData\\Local\\Temp\\ccA6b8cT.s]
+        ignore line: [GNU C (GCC) version 4.5.2 (mingw32)]
+        ignore line: [	compiled by GNU C version 4.5.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "/mingw/lib/gcc/mingw32/4.5.2/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include-fixed"]
+        ignore line: [ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/../../../../include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [GNU C (GCC) version 4.5.2 (mingw32)]
+        ignore line: [	compiled by GNU C version 4.5.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 48c0bd49e9a9404f24c600b71b435d06]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/as.exe -o CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj C:\\Users\\Marin\\AppData\\Local\\Temp\\ccA6b8cT.s]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.5.2/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_29a75.dir\\CMakeCCompilerABI.c.obj' '-c' '-mtune=i386' '-march=i386']
+        ignore line: [Linking C executable cmTC_29a75.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_29a75.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_29a75.dir/objects.a]
+        ignore line: [C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_29a75.dir/objects.a @CMakeFiles\\cmTC_29a75.dir\\objects1.rsp]
+        ignore line: [C:\\MinGW\\bin\\gcc.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_29a75.dir/objects.a -Wl --no-whole-archive -o cmTC_29a75.exe -Wl --out-implib libcmTC_29a75.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\gcc.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../gcc-4.5.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-werror --build=mingw32 --prefix=/mingw]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 4.5.2 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.5.2/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_29a75.exe' '-mtune=i386' '-march=i386']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/collect2.exe -Bdynamic -o cmTC_29a75.exe c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../.. -L/mingw/lib --whole-archive CMakeFiles\\cmTC_29a75.dir/objects.a --no-whole-archive --out-implib libcmTC_29a75.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_eh -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o]
+          arg [c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/collect2.exe] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-o] ==> ignore
+          arg [cmTC_29a75.exe] ==> ignore
+          arg [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2]
+          arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../..]
+          arg [-L/mingw/lib] ==> dir [/mingw/lib]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_29a75.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_29a75.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_eh] ==> lib [gcc_eh]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        remove lib [gcc_eh]
+        remove lib [msvcrt]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o] ==> [C:/MinGW/lib/crt2.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/crtbegin.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/crtend.o]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2]
+        collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../..] ==> [C:/MinGW/lib]
+        collapse library dir [/mingw/lib] ==> [/MinGW/lib]
+        implicit libs: [mingw32;gcc;moldname;mingwex;user32;kernel32;advapi32;shell32;mingw32;gcc;moldname;mingwex]
+        implicit objs: [C:/MinGW/lib/crt2.o;C:/MinGW/lib/gcc/mingw32/4.5.2/crtbegin.o;C:/MinGW/lib/gcc/mingw32/4.5.2/crtend.o]
+        implicit dirs: [C:/MinGW/lib/gcc/mingw32/4.5.2;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib;/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-uexmg3"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-uexmg3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-uexmg3
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a4b63/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a4b63.dir\\build.make CMakeFiles/cmTC_a4b63.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-uexmg3'
+        Building CXX object CMakeFiles/cmTC_a4b63.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../gcc-4.5.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-werror --build=mingw32 --prefix=/mingw
+        Thread model: win32
+        gcc version 4.5.2 (GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/ C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\Marin\\AppData\\Local\\Temp\\ccDf5Hby.s
+        GNU C++ (GCC) version 4.5.2 (mingw32)
+        	compiled by GNU C version 4.5.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/../../../../mingw32/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include/c++"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include/c++/mingw32"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include/c++/backward"
+        ignoring duplicate directory "/mingw/lib/gcc/mingw32/4.5.2/../../../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include"
+        ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include-fixed"
+        ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/../../../../mingw32/include"
+        ignoring duplicate directory "/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include/c++
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include/c++/mingw32
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include/c++/backward
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/../../../../include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include
+         c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include-fixed
+        End of search list.
+        GNU C++ (GCC) version 4.5.2 (mingw32)
+        	compiled by GNU C version 4.5.2, GMP version 5.0.1, MPFR version 2.4.1, MPC version 0.8.1
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: bba7c68567cab1560329ee702fa8a945
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/as.exe -o CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Marin\\AppData\\Local\\Temp\\ccDf5Hby.s
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.5.2/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386'
+        Linking CXX executable cmTC_a4b63.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a4b63.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a4b63.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_a4b63.dir/objects.a @CMakeFiles\\cmTC_a4b63.dir\\objects1.rsp
+        C:\\MinGW\\bin\\g++.exe  -v -Wl,--whole-archive CMakeFiles\\cmTC_a4b63.dir/objects.a -Wl,--no-whole-archive -o cmTC_a4b63.exe -Wl,--out-implib,libcmTC_a4b63.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
+        Using built-in specs.
+        COLLECT_GCC=C:\\MinGW\\bin\\g++.exe
+        COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/lto-wrapper.exe
+        Target: mingw32
+        Configured with: ../gcc-4.5.2/configure --enable-languages=c,c++,ada,fortran,objc,obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-werror --build=mingw32 --prefix=/mingw
+        Thread model: win32
+        gcc version 4.5.2 (GCC) 
+        COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/;c:/mingw/bin/../libexec/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/
+        LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.5.2/;c:/mingw/bin/../lib/gcc/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib/;c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../;/mingw/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4b63.exe' '-shared-libgcc' '-mtune=i386' '-march=i386'
+         c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_a4b63.exe c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../.. -L/mingw/lib --whole-archive CMakeFiles\\cmTC_a4b63.dir/objects.a --no-whole-archive --out-implib libcmTC_a4b63.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-uexmg3'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include/c++]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include/c++/mingw32]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include/c++/backward]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include]
+          add: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include-fixed]
+        end of search list found
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include/c++] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/include/c++]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include/c++/mingw32] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/include/c++/mingw32]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include/c++/backward] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/include/c++/backward]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../include] ==> [C:/MinGW/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/include]
+        collapse include dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/include-fixed] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/include-fixed]
+        implicit include dirs: [C:/MinGW/lib/gcc/mingw32/4.5.2/include/c++;C:/MinGW/lib/gcc/mingw32/4.5.2/include/c++/mingw32;C:/MinGW/lib/gcc/mingw32/4.5.2/include/c++/backward;C:/MinGW/include;C:/MinGW/lib/gcc/mingw32/4.5.2/include;C:/MinGW/lib/gcc/mingw32/4.5.2/include-fixed]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompilerABI.cmake:152 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-uexmg3]
+        ignore line: []
+        ignore line: [Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_a4b63/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a4b63.dir\\build.make CMakeFiles/cmTC_a4b63.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-uexmg3']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a4b63.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\MinGW\\bin\\g++.exe   -v -o CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../gcc-4.5.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-werror --build=mingw32 --prefix=/mingw]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 4.5.2 (GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/cc1plus.exe -quiet -v -iprefix c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/ C:\\Program Files\\CMake\\share\\cmake-3.26\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=i386 -march=i386 -auxbase-strip CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj -version -o C:\\Users\\Marin\\AppData\\Local\\Temp\\ccDf5Hby.s]
+        ignore line: [GNU C++ (GCC) version 4.5.2 (mingw32)]
+        ignore line: [	compiled by GNU C version 4.5.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include/c++"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include/c++/mingw32"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "/mingw/lib/gcc/mingw32/4.5.2/../../../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include"]
+        ignore line: [ignoring duplicate directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/include-fixed"]
+        ignore line: [ignoring nonexistent directory "c:/mingw/lib/gcc/../../lib/gcc/mingw32/4.5.2/../../../../mingw32/include"]
+        ignore line: [ignoring duplicate directory "/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include/c++]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include/c++/mingw32]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include/c++/backward]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/../../../../include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include]
+        ignore line: [ c:\\mingw\\bin\\../lib/gcc/mingw32/4.5.2/include-fixed]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++ (GCC) version 4.5.2 (mingw32)]
+        ignore line: [	compiled by GNU C version 4.5.2  GMP version 5.0.1  MPFR version 2.4.1  MPC version 0.8.1]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: bba7c68567cab1560329ee702fa8a945]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [ c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/as.exe -o CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\Marin\\AppData\\Local\\Temp\\ccDf5Hby.s]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.5.2/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_a4b63.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        ignore line: [Linking CXX executable cmTC_a4b63.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a4b63.dir\\link.txt --verbose=1]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a4b63.dir/objects.a]
+        ignore line: [C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_a4b63.dir/objects.a @CMakeFiles\\cmTC_a4b63.dir\\objects1.rsp]
+        ignore line: [C:\\MinGW\\bin\\g++.exe  -v -Wl --whole-archive CMakeFiles\\cmTC_a4b63.dir/objects.a -Wl --no-whole-archive -o cmTC_a4b63.exe -Wl --out-implib libcmTC_a4b63.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=C:\\MinGW\\bin\\g++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/lto-wrapper.exe]
+        ignore line: [Target: mingw32]
+        ignore line: [Configured with: ../gcc-4.5.2/configure --enable-languages=c c++ ada fortran objc obj-c++ --disable-sjlj-exceptions --with-dwarf2 --enable-shared --enable-libgomp --disable-win32-registry --enable-libstdcxx-debug --enable-version-specific-runtime-libs --disable-werror --build=mingw32 --prefix=/mingw]
+        ignore line: [Thread model: win32]
+        ignore line: [gcc version 4.5.2 (GCC) ]
+        ignore line: [COMPILER_PATH=c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/]
+        ignore line: [c:/mingw/bin/../libexec/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/]
+        ignore line: [LIBRARY_PATH=c:/mingw/bin/../lib/gcc/mingw32/4.5.2/]
+        ignore line: [c:/mingw/bin/../lib/gcc/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib/]
+        ignore line: [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../]
+        ignore line: [/mingw/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a4b63.exe' '-shared-libgcc' '-mtune=i386' '-march=i386']
+        link line: [ c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/collect2.exe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_a4b63.exe c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2 -Lc:/mingw/bin/../lib/gcc -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib -Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../.. -L/mingw/lib --whole-archive CMakeFiles\\cmTC_a4b63.dir/objects.a --no-whole-archive --out-implib libcmTC_a4b63.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -luser32 -lkernel32 -ladvapi32 -lshell32 -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o]
+          arg [c:/mingw/bin/../libexec/gcc/mingw32/4.5.2/collect2.exe] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-u] ==> ignore
+          arg [___register_frame_info] ==> ignore
+          arg [-u] ==> ignore
+          arg [___deregister_frame_info] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_a4b63.exe] ==> ignore
+          arg [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2]
+          arg [-Lc:/mingw/bin/../lib/gcc] ==> dir [c:/mingw/bin/../lib/gcc]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib]
+          arg [-Lc:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../..] ==> dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../..]
+          arg [-L/mingw/lib] ==> dir [/mingw/lib]
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_a4b63.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_a4b63.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmoldname] ==> lib [moldname]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o] ==> obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o]
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../crt2.o] ==> [C:/MinGW/lib/crt2.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtbegin.o] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/crtbegin.o]
+        collapse obj [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/crtend.o] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2/crtend.o]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2] ==> [C:/MinGW/lib/gcc/mingw32/4.5.2]
+        collapse library dir [c:/mingw/bin/../lib/gcc] ==> [C:/MinGW/lib/gcc]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/lib] ==> [C:/MinGW/mingw32/lib]
+        collapse library dir [c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../..] ==> [C:/MinGW/lib]
+        collapse library dir [/mingw/lib] ==> [/MinGW/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;moldname;mingwex;user32;kernel32;advapi32;shell32;mingw32;gcc_s;gcc;moldname;mingwex]
+        implicit objs: [C:/MinGW/lib/crt2.o;C:/MinGW/lib/gcc/mingw32/4.5.2/crtbegin.o;C:/MinGW/lib/gcc/mingw32/4.5.2/crtend.o]
+        implicit dirs: [C:/MinGW/lib/gcc/mingw32/4.5.2;C:/MinGW/lib/gcc;C:/MinGW/mingw32/lib;C:/MinGW/lib;/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:129 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-cmrx2x"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-cmrx2x"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-cmrx2x
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_0d6e2/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0d6e2.dir\\build.make CMakeFiles/cmTC_0d6e2.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-cmrx2x'
+        Building CXX object CMakeFiles/cmTC_0d6e2.dir/feature_tests.cxx.obj
+        C:\\MinGW\\bin\\g++.exe   -std=c++0x -o CMakeFiles\\cmTC_0d6e2.dir\\feature_tests.cxx.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cmrx2x\\feature_tests.cxx
+        Linking CXX executable cmTC_0d6e2.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_0d6e2.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_0d6e2.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_0d6e2.dir/objects.a @CMakeFiles\\cmTC_0d6e2.dir\\objects1.rsp
+        C:\\MinGW\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_0d6e2.dir/objects.a -Wl,--no-whole-archive -o cmTC_0d6e2.exe -Wl,--out-implib,libcmTC_0d6e2.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_0d6e2.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-cmrx2x'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:34 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/FeatureTesting.cmake:83 (_record_compiler_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake:137 (_record_compiler_features_cxx)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeDetermineCompileFeatures.cmake:70 (cmake_record_cxx_compile_features)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CMakeTestCXXCompiler.cmake:70 (CMAKE_DETERMINE_COMPILE_FEATURES)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compile features"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-58o9u3"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-58o9u3"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_FEATURE_TEST"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-58o9u3
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_3165d/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_3165d.dir\\build.make CMakeFiles/cmTC_3165d.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-58o9u3'
+        Building CXX object CMakeFiles/cmTC_3165d.dir/feature_tests.cxx.obj
+        C:\\MinGW\\bin\\g++.exe   -std=c++98 -o CMakeFiles\\cmTC_3165d.dir\\feature_tests.cxx.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-58o9u3\\feature_tests.cxx
+        Linking CXX executable cmTC_3165d.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_3165d.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_3165d.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_3165d.dir/objects.a @CMakeFiles\\cmTC_3165d.dir\\objects1.rsp
+        C:\\MinGW\\bin\\g++.exe -Wl,--whole-archive CMakeFiles\\cmTC_3165d.dir/objects.a -Wl,--no-whole-archive -o cmTC_3165d.exe -Wl,--out-implib,libcmTC_3165d.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_3165d.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-58o9u3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "third_party/glfw-3.3.2/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lv3nvx"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lv3nvx"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Marin/Downloads/v02/third_party/glfw-3.3.2/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lv3nvx
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_38a68/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_38a68.dir\\build.make CMakeFiles/cmTC_38a68.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lv3nvx'
+        Building C object CMakeFiles/cmTC_38a68.dir/src.c.obj
+        C:\\MinGW\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles\\cmTC_38a68.dir\\src.c.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lv3nvx\\src.c
+        Linking C executable cmTC_38a68.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_38a68.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_38a68.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_38a68.dir/objects.a @CMakeFiles\\cmTC_38a68.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe -Wl,--whole-archive CMakeFiles\\cmTC_38a68.dir/objects.a -Wl,--no-whole-archive -o cmTC_38a68.exe -Wl,--out-implib,libcmTC_38a68.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_38a68.dir\\linkLibs.rsp
+        CMakeFiles\\cmTC_38a68.dir/objects.a(src.c.obj):src.c:(.text+0x36): undefined reference to `_imp__pthread_create'
+        CMakeFiles\\cmTC_38a68.dir/objects.a(src.c.obj):src.c:(.text+0x4c): undefined reference to `_imp__pthread_detach'
+        CMakeFiles\\cmTC_38a68.dir/objects.a(src.c.obj):src.c:(.text+0x62): undefined reference to `_imp__pthread_cancel'
+        CMakeFiles\\cmTC_38a68.dir/objects.a(src.c.obj):src.c:(.text+0x80): undefined reference to `_imp__pthread_join'
+        CMakeFiles\\cmTC_38a68.dir/objects.a(src.c.obj):src.c:(.text+0x9e): undefined reference to `pthread_atfork'
+        CMakeFiles\\cmTC_38a68.dir/objects.a(src.c.obj):src.c:(.text+0xaa): undefined reference to `_imp__pthread_exit'
+        collect2: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [cmTC_38a68.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lv3nvx'
+        mingw32-make.exe: *** [cmTC_38a68/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "third_party/glfw-3.3.2/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lnmt14"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lnmt14"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Marin/Downloads/v02/third_party/glfw-3.3.2/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lnmt14
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_02301/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_02301.dir\\build.make CMakeFiles/cmTC_02301.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lnmt14'
+        Building C object CMakeFiles/cmTC_02301.dir/CheckFunctionExists.c.obj
+        C:\\MinGW\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles\\cmTC_02301.dir\\CheckFunctionExists.c.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-lnmt14\\CheckFunctionExists.c
+        Linking C executable cmTC_02301.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_02301.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_02301.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_02301.dir/objects.a @CMakeFiles\\cmTC_02301.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\\cmTC_02301.dir/objects.a -Wl,--no-whole-archive -o cmTC_02301.exe -Wl,--out-implib,libcmTC_02301.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_02301.dir\\linkLibs.rsp
+        c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/ld.exe: cannot find -lpthreads
+        collect2: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [cmTC_02301.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-lnmt14'
+        mingw32-make.exe: *** [cmTC_02301/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "third_party/glfw-3.3.2/CMakeLists.txt:58 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-4rl22o"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-4rl22o"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Marin/Downloads/v02/third_party/glfw-3.3.2/CMake/modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-4rl22o
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_035db/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_035db.dir\\build.make CMakeFiles/cmTC_035db.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-4rl22o'
+        Building C object CMakeFiles/cmTC_035db.dir/CheckFunctionExists.c.obj
+        C:\\MinGW\\bin\\gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles\\cmTC_035db.dir\\CheckFunctionExists.c.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4rl22o\\CheckFunctionExists.c
+        Linking C executable cmTC_035db.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_035db.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_035db.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_035db.dir/objects.a @CMakeFiles\\cmTC_035db.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,--whole-archive CMakeFiles\\cmTC_035db.dir/objects.a -Wl,--no-whole-archive -o cmTC_035db.exe -Wl,--out-implib,libcmTC_035db.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_035db.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-4rl22o'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "third_party/glfw-3.3.2/CMakeLists.txt:102 (check_include_file)"
+    checks:
+      - "Looking for dinput.h"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-po0y1b"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-po0y1b"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Marin/Downloads/v02/third_party/glfw-3.3.2/CMake/modules"
+    buildResult:
+      variable: "DINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-po0y1b
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_0979d/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_0979d.dir\\build.make CMakeFiles/cmTC_0979d.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-po0y1b'
+        Building C object CMakeFiles/cmTC_0979d.dir/CheckIncludeFile.c.obj
+        C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles\\cmTC_0979d.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-po0y1b\\CheckIncludeFile.c
+        C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-po0y1b\\CheckIncludeFile.c:1:20: fatal error: dinput.h: No such file or directory
+        compilation terminated.
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_0979d.dir/CheckIncludeFile.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-po0y1b'
+        mingw32-make.exe: *** [cmTC_0979d/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckIncludeFile.cmake:95 (try_compile)"
+      - "third_party/glfw-3.3.2/CMakeLists.txt:103 (check_include_file)"
+    checks:
+      - "Looking for xinput.h"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-rh57c9"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-rh57c9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Marin/Downloads/v02/third_party/glfw-3.3.2/CMake/modules"
+    buildResult:
+      variable: "XINPUT_H_FOUND"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-rh57c9
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_7ce8c/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_7ce8c.dir\\build.make CMakeFiles/cmTC_7ce8c.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-rh57c9'
+        Building C object CMakeFiles/cmTC_7ce8c.dir/CheckIncludeFile.c.obj
+        C:\\MinGW\\bin\\gcc.exe    -o CMakeFiles\\cmTC_7ce8c.dir\\CheckIncludeFile.c.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rh57c9\\CheckIncludeFile.c
+        C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rh57c9\\CheckIncludeFile.c:1:20: fatal error: xinput.h: No such file or directory
+        compilation terminated.
+        mingw32-make.exe[1]: *** [CMakeFiles/cmTC_7ce8c.dir/CheckIncludeFile.c.obj] Error 1
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-rh57c9'
+        mingw32-make.exe: *** [cmTC_7ce8c/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third_party/glfw-3.3.2/CMakeLists.txt:113 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_DEP"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-334wr3"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-334wr3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Marin/Downloads/v02/third_party/glfw-3.3.2/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_DEP"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-334wr3
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_ea2ba/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_ea2ba.dir\\build.make CMakeFiles/cmTC_ea2ba.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-334wr3'
+        Building C object CMakeFiles/cmTC_ea2ba.dir/src.c.obj
+        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_DEP  -Wl,--nxcompat -o CMakeFiles\\cmTC_ea2ba.dir\\src.c.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-334wr3\\src.c
+        Linking C executable cmTC_ea2ba.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_ea2ba.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_ea2ba.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_ea2ba.dir/objects.a @CMakeFiles\\cmTC_ea2ba.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -Wl,--nxcompat -Wl,--whole-archive CMakeFiles\\cmTC_ea2ba.dir/objects.a -Wl,--no-whole-archive -o cmTC_ea2ba.exe -Wl,--out-implib,libcmTC_ea2ba.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_ea2ba.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-334wr3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third_party/glfw-3.3.2/CMakeLists.txt:120 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_ASLR"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-yza0f6"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-yza0f6"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Marin/Downloads/v02/third_party/glfw-3.3.2/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_ASLR"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-yza0f6
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_d5b06/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_d5b06.dir\\build.make CMakeFiles/cmTC_d5b06.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-yza0f6'
+        Building C object CMakeFiles/cmTC_d5b06.dir/src.c.obj
+        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_ASLR  -Wl,--dynamicbase -o CMakeFiles\\cmTC_d5b06.dir\\src.c.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yza0f6\\src.c
+        Linking C executable cmTC_d5b06.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_d5b06.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_d5b06.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_d5b06.dir/objects.a @CMakeFiles\\cmTC_d5b06.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -Wl,--dynamicbase -Wl,--whole-archive CMakeFiles\\cmTC_d5b06.dir/objects.a -Wl,--no-whole-archive -o cmTC_d5b06.exe -Wl,--out-implib,libcmTC_d5b06.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_d5b06.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-yza0f6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.26/Modules/CheckCCompilerFlag.cmake:40 (cmake_check_compiler_flag)"
+      - "third_party/glfw-3.3.2/CMakeLists.txt:127 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test _GLFW_HAS_64ASLR"
+    directories:
+      source: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-2fp85w"
+      binary: "C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-2fp85w"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "C:/Users/Marin/Downloads/v02/third_party/glfw-3.3.2/CMake/modules"
+    buildResult:
+      variable: "_GLFW_HAS_64ASLR"
+      cached: true
+      stdout: |
+        Change Dir: C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-2fp85w
+        
+        Run Build Command(s):C:/Program Files/CMake/bin/cmake.exe -E env VERBOSE=1 C:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_263bf/fast && C:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_263bf.dir\\build.make CMakeFiles/cmTC_263bf.dir/build
+        mingw32-make.exe[1]: Entering directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-2fp85w'
+        Building C object CMakeFiles/cmTC_263bf.dir/src.c.obj
+        C:\\MinGW\\bin\\gcc.exe -D_GLFW_HAS_64ASLR  -Wl,--high-entropy-va -o CMakeFiles\\cmTC_263bf.dir\\src.c.obj -c C:\\Users\\Marin\\Downloads\\v02\\build\\CMakeFiles\\CMakeScratch\\TryCompile-2fp85w\\src.c
+        Linking C executable cmTC_263bf.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_263bf.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_263bf.dir/objects.a
+        C:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_263bf.dir/objects.a @CMakeFiles\\cmTC_263bf.dir\\objects1.rsp
+        C:\\MinGW\\bin\\gcc.exe  -Wl,--high-entropy-va -Wl,--whole-archive CMakeFiles\\cmTC_263bf.dir/objects.a -Wl,--no-whole-archive -o cmTC_263bf.exe -Wl,--out-implib,libcmTC_263bf.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_263bf.dir\\linkLibs.rsp
+        c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/ld.exe: unrecognized option '--high-entropy-va'
+        c:/mingw/bin/../lib/gcc/mingw32/4.5.2/../../../../mingw32/bin/ld.exe: use the --help option for usage information
+        collect2: ld returned 1 exit status
+        mingw32-make.exe[1]: *** [cmTC_263bf.exe] Error 1
+        mingw32-make.exe[1]: Leaving directory `C:/Users/Marin/Downloads/v02/build/CMakeFiles/CMakeScratch/TryCompile-2fp85w'
+        mingw32-make.exe: *** [cmTC_263bf/fast] Error 2
+        
+      exitCode: 2
+...
