@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/v02.dir/v02.cpp.obj"
-  "CMakeFiles/v02.dir/v02.cpp.obj.d"
-  "libv02.dll.a"
-  "v02.exe"
-  "v02.exe.manifest"
+  "CMakeFiles/v02.dir/shaderClass.cpp.o"
+  "CMakeFiles/v02.dir/shaderClass.cpp.o.d"
+  "CMakeFiles/v02.dir/v02.cpp.o"
+  "CMakeFiles/v02.dir/v02.cpp.o.d"
+  "v02"
   "v02.pdb"
 )
 

@@ -3,5 +3,5 @@
 
 #include <string>
 
-const std::string shaders_folder{"C:/Users/Marin/Downloads/v02/nastava/v02/"};
+const std::string shaders_folder{"/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/"};
 #endif

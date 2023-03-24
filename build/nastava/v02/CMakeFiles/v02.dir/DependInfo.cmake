@@ -8,11 +8,14 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/Marin/Downloads/v02/nastava/v02/v02.cpp" "nastava/v02/CMakeFiles/v02.dir/v02.cpp.obj" "gcc" "nastava/v02/CMakeFiles/v02.dir/v02.cpp.obj.d"
+  "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/shaderClass.cpp" "nastava/v02/CMakeFiles/v02.dir/shaderClass.cpp.o" "gcc" "nastava/v02/CMakeFiles/v02.dir/shaderClass.cpp.o.d"
+  "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/v02.cpp" "nastava/v02/CMakeFiles/v02.dir/v02.cpp.o" "gcc" "nastava/v02/CMakeFiles/v02.dir/v02.cpp.o.d"
   )
 
-# Targets to which this target links which contain Fortran sources.
-set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+# Targets to which this target links.
+set(CMAKE_TARGET_LINKED_INFO_FILES
+  "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/DependInfo.cmake"
+  "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/CMakeFiles/GLEW_2100.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

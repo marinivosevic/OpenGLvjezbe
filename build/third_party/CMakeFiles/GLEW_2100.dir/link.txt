@@ -1,0 +1,2 @@
+/usr/bin/ar qc libGLEW_2100.a CMakeFiles/GLEW_2100.dir/glew-2.1.0/src/glew.c.o
+/usr/bin/ranlib libGLEW_2100.a

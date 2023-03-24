@@ -1,0 +1,3 @@
+file(REMOVE_RECURSE
+  "libGLEW_2100.a"
+)
