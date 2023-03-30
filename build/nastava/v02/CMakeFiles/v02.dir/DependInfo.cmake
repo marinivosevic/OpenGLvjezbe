@@ -8,6 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp" "nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o" "gcc" "nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o.d"
+  "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp" "nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o" "gcc" "nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o.d"
   "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/shaderClass.cpp" "nastava/v02/CMakeFiles/v02.dir/shaderClass.cpp.o" "gcc" "nastava/v02/CMakeFiles/v02.dir/shaderClass.cpp.o.d"
   "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/v02.cpp" "nastava/v02/CMakeFiles/v02.dir/v02.cpp.o" "gcc" "nastava/v02/CMakeFiles/v02.dir/v02.cpp.o.d"
   )

@@ -130,6 +130,54 @@ v02/fast:
 	cd /home/marin/projects/openGL/OpenGLvjezbe/build && $(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/build
 .PHONY : v02/fast
 
+EBO.o: EBO.cpp.o
+.PHONY : EBO.o
+
+# target to build an object file
+EBO.cpp.o:
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build && $(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o
+.PHONY : EBO.cpp.o
+
+EBO.i: EBO.cpp.i
+.PHONY : EBO.i
+
+# target to preprocess a source file
+EBO.cpp.i:
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build && $(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/EBO.cpp.i
+.PHONY : EBO.cpp.i
+
+EBO.s: EBO.cpp.s
+.PHONY : EBO.s
+
+# target to generate assembly for a file
+EBO.cpp.s:
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build && $(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/EBO.cpp.s
+.PHONY : EBO.cpp.s
+
+VBO.o: VBO.cpp.o
+.PHONY : VBO.o
+
+# target to build an object file
+VBO.cpp.o:
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build && $(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o
+.PHONY : VBO.cpp.o
+
+VBO.i: VBO.cpp.i
+.PHONY : VBO.i
+
+# target to preprocess a source file
+VBO.cpp.i:
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build && $(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/VBO.cpp.i
+.PHONY : VBO.cpp.i
+
+VBO.s: VBO.cpp.s
+.PHONY : VBO.s
+
+# target to generate assembly for a file
+VBO.cpp.s:
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build && $(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/VBO.cpp.s
+.PHONY : VBO.cpp.s
+
 shaderClass.o: shaderClass.cpp.o
 .PHONY : shaderClass.o
 
@@ -187,6 +235,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... v02"
+	@echo "... EBO.o"
+	@echo "... EBO.i"
+	@echo "... EBO.s"
+	@echo "... VBO.o"
+	@echo "... VBO.i"
+	@echo "... VBO.s"
 	@echo "... shaderClass.o"
 	@echo "... shaderClass.i"
 	@echo "... shaderClass.s"

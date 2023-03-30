@@ -232,12 +232,12 @@ nastava/v02/CMakeFiles/v02.dir/all: third_party/CMakeFiles/GLEW_2100.dir/all
 nastava/v02/CMakeFiles/v02.dir/all: third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/depend
 	$(MAKE) $(MAKESILENT) -f nastava/v02/CMakeFiles/v02.dir/build.make nastava/v02/CMakeFiles/v02.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles --progress-num=20,21,22 "Built target v02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles --progress-num=20,21,22,23,24 "Built target v02"
 .PHONY : nastava/v02/CMakeFiles/v02.dir/all
 
 # Build rule for subdir invocation for target.
 nastava/v02/CMakeFiles/v02.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 nastava/v02/CMakeFiles/v02.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles 0
 .PHONY : nastava/v02/CMakeFiles/v02.dir/rule
@@ -259,7 +259,7 @@ nastava/v02_000/CMakeFiles/v02_000.dir/all: third_party/CMakeFiles/GLEW_2100.dir
 nastava/v02_000/CMakeFiles/v02_000.dir/all: third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f nastava/v02_000/CMakeFiles/v02_000.dir/build.make nastava/v02_000/CMakeFiles/v02_000.dir/depend
 	$(MAKE) $(MAKESILENT) -f nastava/v02_000/CMakeFiles/v02_000.dir/build.make nastava/v02_000/CMakeFiles/v02_000.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles --progress-num=23,24,25 "Built target v02_000"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles --progress-num=25,26,27 "Built target v02_000"
 .PHONY : nastava/v02_000/CMakeFiles/v02_000.dir/all
 
 # Build rule for subdir invocation for target.

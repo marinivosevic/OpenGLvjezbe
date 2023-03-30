@@ -4,7 +4,7 @@ set(EXE v02)
 
 add_executable(${EXE}
     shaderClass.h
-    v02.cpp shaderClass.cpp)
+    v02.cpp shaderClass.cpp VBO.h VBO.cpp EBO.h EBO.cpp)
 
 set(SHADERS_FOLDER_V02 "${CMAKE_CURRENT_SOURCE_DIR}" CACHE PATH "shaders location")
 

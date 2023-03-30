@@ -95,6 +95,16 @@
   "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/shaderClass.cpp"
 },
 {
+  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02",
+  "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 -g -std=gnu++17 -o CMakeFiles/v02.dir/VBO.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp",
+  "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp"
+},
+{
+  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02",
+  "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 -g -std=gnu++17 -o CMakeFiles/v02.dir/EBO.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp",
+  "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp"
+},
+{
   "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02_000",
   "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02_000 -g -std=gnu++17 -o CMakeFiles/v02_000.dir/shader.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02_000/shader.cpp",
   "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02_000/shader.cpp"

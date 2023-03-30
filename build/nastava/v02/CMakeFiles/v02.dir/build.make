@@ -97,16 +97,48 @@ nastava/v02/CMakeFiles/v02.dir/shaderClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v02.dir/shaderClass.cpp.s"
 	cd /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/shaderClass.cpp -o CMakeFiles/v02.dir/shaderClass.cpp.s
 
+nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o: nastava/v02/CMakeFiles/v02.dir/flags.make
+nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o: ../nastava/v02/VBO.cpp
+nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o: nastava/v02/CMakeFiles/v02.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o"
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o -MF CMakeFiles/v02.dir/VBO.cpp.o.d -o CMakeFiles/v02.dir/VBO.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp
+
+nastava/v02/CMakeFiles/v02.dir/VBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/v02.dir/VBO.cpp.i"
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp > CMakeFiles/v02.dir/VBO.cpp.i
+
+nastava/v02/CMakeFiles/v02.dir/VBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v02.dir/VBO.cpp.s"
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp -o CMakeFiles/v02.dir/VBO.cpp.s
+
+nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o: nastava/v02/CMakeFiles/v02.dir/flags.make
+nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o: ../nastava/v02/EBO.cpp
+nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o: nastava/v02/CMakeFiles/v02.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o"
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o -MF CMakeFiles/v02.dir/EBO.cpp.o.d -o CMakeFiles/v02.dir/EBO.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp
+
+nastava/v02/CMakeFiles/v02.dir/EBO.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/v02.dir/EBO.cpp.i"
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp > CMakeFiles/v02.dir/EBO.cpp.i
+
+nastava/v02/CMakeFiles/v02.dir/EBO.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/v02.dir/EBO.cpp.s"
+	cd /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 && /usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp -o CMakeFiles/v02.dir/EBO.cpp.s
+
 # Object files for target v02
 v02_OBJECTS = \
 "CMakeFiles/v02.dir/v02.cpp.o" \
-"CMakeFiles/v02.dir/shaderClass.cpp.o"
+"CMakeFiles/v02.dir/shaderClass.cpp.o" \
+"CMakeFiles/v02.dir/VBO.cpp.o" \
+"CMakeFiles/v02.dir/EBO.cpp.o"
 
 # External object files for target v02
 v02_EXTERNAL_OBJECTS =
 
 nastava/v02/v02: nastava/v02/CMakeFiles/v02.dir/v02.cpp.o
 nastava/v02/v02: nastava/v02/CMakeFiles/v02.dir/shaderClass.cpp.o
+nastava/v02/v02: nastava/v02/CMakeFiles/v02.dir/VBO.cpp.o
+nastava/v02/v02: nastava/v02/CMakeFiles/v02.dir/EBO.cpp.o
 nastava/v02/v02: nastava/v02/CMakeFiles/v02.dir/build.make
 nastava/v02/v02: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 nastava/v02/v02: /usr/lib/x86_64-linux-gnu/libGLX.so
@@ -120,7 +152,7 @@ nastava/v02/v02: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 nastava/v02/v02: /usr/lib/x86_64-linux-gnu/libGLX.so
 nastava/v02/v02: /usr/lib/x86_64-linux-gnu/libGLU.so
 nastava/v02/v02: nastava/v02/CMakeFiles/v02.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable v02"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/marin/projects/openGL/OpenGLvjezbe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable v02"
 	cd /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/v02.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
