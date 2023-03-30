@@ -1,117 +1,140 @@
 [
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party",
-  "command": "/usr/bin/gcc  -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include/GLFW -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -g -o CMakeFiles/GLEW_2100.dir/glew-2.1.0/src/glew.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/src/glew.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/src/glew.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party",
+  "command": "C:\\MinGW\\bin\\gcc.exe  @CMakeFiles/GLEW_2100.dir/includes_C.rsp -g -o CMakeFiles\\GLEW_2100.dir\\glew-2.1.0\\src\\glew.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glew-2.1.0\\src\\glew.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glew-2.1.0/src/glew.c",
+  "output": "third_party/CMakeFiles/GLEW_2100.dir/glew-2.1.0/src/glew.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/context.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/context.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/context.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\context.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\context.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/context.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/context.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/init.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/init.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/init.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\init.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\init.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/init.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/init.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/input.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/input.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/input.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\input.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\input.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/input.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/input.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/monitor.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/monitor.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/monitor.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\monitor.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\monitor.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/monitor.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/monitor.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/vulkan.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/vulkan.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/vulkan.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\vulkan.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\vulkan.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/vulkan.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/vulkan.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/window.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/window.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/window.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\window.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\window.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/window.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/window.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_init.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/x11_init.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/x11_init.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_init.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\win32_init.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/win32_init.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/win32_init.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_monitor.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/x11_monitor.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/x11_monitor.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_joystick.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\win32_joystick.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/win32_joystick.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/win32_joystick.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/x11_window.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/x11_window.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/x11_window.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_monitor.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\win32_monitor.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/win32_monitor.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/win32_monitor.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/xkb_unicode.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/xkb_unicode.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/xkb_unicode.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_time.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\win32_time.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/win32_time.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/win32_time.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_time.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/posix_time.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/posix_time.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_thread.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\win32_thread.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/win32_thread.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/win32_thread.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/posix_thread.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/posix_thread.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/posix_thread.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\win32_window.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\win32_window.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/win32_window.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/win32_window.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/glx_context.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/glx_context.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/glx_context.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\wgl_context.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\wgl_context.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/wgl_context.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/wgl_context.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/egl_context.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/egl_context.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/egl_context.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\egl_context.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\egl_context.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/egl_context.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/egl_context.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -Wdeclaration-after-statement -o CMakeFiles/glfw.dir/osmesa_context.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/osmesa_context.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/osmesa_context.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
+  "command": "C:\\MinGW\\bin\\gcc.exe -DUNICODE -DWINVER=0x0501 -D_GLFW_USE_CONFIG_H -D_UNICODE @CMakeFiles/glfw.dir/includes_C.rsp -g -std=gnu99 -Wall -Wdeclaration-after-statement -o CMakeFiles\\glfw.dir\\osmesa_context.c.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\third_party\\glfw-3.3.2\\src\\osmesa_context.c",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/osmesa_context.c",
+  "output": "third_party/glfw-3.3.2/src/CMakeFiles/glfw.dir/osmesa_context.c.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src",
-  "command": "/usr/bin/gcc -D_GLFW_USE_CONFIG_H -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src -I/home/marin/projects/openGL/OpenGLvjezbe/build/third_party/glfw-3.3.2/src -g -fPIC -Wall -std=gnu99 -o CMakeFiles/glfw.dir/linux_joystick.c.o -c /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/linux_joystick.c",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/src/linux_joystick.c"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/nastava/v02",
+  "command": "C:\\MinGW\\bin\\g++.exe -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/v02.dir/includes_CXX.rsp -g -o CMakeFiles\\v02.dir\\v02.cpp.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\nastava\\v02\\v02.cpp",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/nastava/v02/v02.cpp",
+  "output": "nastava/v02/CMakeFiles/v02.dir/v02.cpp.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02",
-  "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 -g -std=gnu++17 -o CMakeFiles/v02.dir/v02.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/v02.cpp",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/v02.cpp"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/nastava/v02",
+  "command": "C:\\MinGW\\bin\\g++.exe -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/v02.dir/includes_CXX.rsp -g -o CMakeFiles\\v02.dir\\shaderClass.cpp.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\nastava\\v02\\shaderClass.cpp",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/nastava/v02/shaderClass.cpp",
+  "output": "nastava/v02/CMakeFiles/v02.dir/shaderClass.cpp.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02",
-  "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 -g -std=gnu++17 -o CMakeFiles/v02.dir/shaderClass.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/shaderClass.cpp",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/shaderClass.cpp"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/nastava/v02",
+  "command": "C:\\MinGW\\bin\\g++.exe -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/v02.dir/includes_CXX.rsp -g -o CMakeFiles\\v02.dir\\VBO.cpp.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\nastava\\v02\\VBO.cpp",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp",
+  "output": "nastava/v02/CMakeFiles/v02.dir/VBO.cpp.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02",
-  "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 -g -std=gnu++17 -o CMakeFiles/v02.dir/VBO.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.cpp"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/nastava/v02",
+  "command": "C:\\MinGW\\bin\\g++.exe -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/v02.dir/includes_CXX.rsp -g -o CMakeFiles\\v02.dir\\EBO.cpp.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\nastava\\v02\\EBO.cpp",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp",
+  "output": "nastava/v02/CMakeFiles/v02.dir/EBO.cpp.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02",
-  "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02 -g -std=gnu++17 -o CMakeFiles/v02.dir/EBO.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.cpp"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/nastava/v02",
+  "command": "C:\\MinGW\\bin\\g++.exe -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/v02.dir/includes_CXX.rsp -g -o CMakeFiles\\v02.dir\\VAO.cpp.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\nastava\\v02\\VAO.cpp",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/nastava/v02/VAO.cpp",
+  "output": "nastava/v02/CMakeFiles/v02.dir/VAO.cpp.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02_000",
-  "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02_000 -g -std=gnu++17 -o CMakeFiles/v02_000.dir/shader.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02_000/shader.cpp",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02_000/shader.cpp"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/nastava/v02_000",
+  "command": "C:\\MinGW\\bin\\g++.exe -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/v02_000.dir/includes_CXX.rsp -g -o CMakeFiles\\v02_000.dir\\shader.cpp.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\nastava\\v02_000\\shader.cpp",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/nastava/v02_000/shader.cpp",
+  "output": "nastava/v02_000/CMakeFiles/v02_000.dir/shader.cpp.obj"
 },
 {
-  "directory": "/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02_000",
-  "command": "/usr/bin/g++ -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glm -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include -I/home/marin/projects/openGL/OpenGLvjezbe/third_party/stb -I/home/marin/projects/openGL/OpenGLvjezbe/build -I/home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02_000 -g -std=gnu++17 -o CMakeFiles/v02_000.dir/v02_000.cpp.o -c /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02_000/v02_000.cpp",
-  "file": "/home/marin/projects/openGL/OpenGLvjezbe/nastava/v02_000/v02_000.cpp"
+  "directory": "E:/Programi/openGL/OpenGLvjezbe/build/nastava/v02_000",
+  "command": "C:\\MinGW\\bin\\g++.exe -DGLEW_STATIC -DTW_NO_DIRECT3D -DTW_NO_LIB_PRAGMA -DTW_STATIC -D_CRT_SECURE_NO_WARNINGS @CMakeFiles/v02_000.dir/includes_CXX.rsp -g -o CMakeFiles\\v02_000.dir\\v02_000.cpp.obj -c E:\\Programi\\openGL\\OpenGLvjezbe\\nastava\\v02_000\\v02_000.cpp",
+  "file": "E:/Programi/openGL/OpenGLvjezbe/nastava/v02_000/v02_000.cpp",
+  "output": "nastava/v02_000/CMakeFiles/v02_000.dir/v02_000.cpp.obj"
 }
 ]

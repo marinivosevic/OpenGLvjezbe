@@ -1,1 +1,3 @@
-/usr/bin/g++ -g CMakeFiles/v02.dir/v02.cpp.o CMakeFiles/v02.dir/shaderClass.cpp.o CMakeFiles/v02.dir/VBO.cpp.o CMakeFiles/v02.dir/EBO.cpp.o -o v02  /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so ../../third_party/glfw-3.3.2/src/libglfw3.a ../../third_party/libGLEW_2100.a /usr/lib/x86_64-linux-gnu/librt.a -lm /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libOpenGL.so /usr/lib/x86_64-linux-gnu/libGLX.so /usr/lib/x86_64-linux-gnu/libGLU.so -lGL -lGLU -lXrandr -lXext -lX11 -lrt -ldl 
+"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\v02.dir/objects.a
+C:\MinGW\bin\ar.exe qc CMakeFiles\v02.dir/objects.a @CMakeFiles\v02.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\v02.dir/objects.a -Wl,--no-whole-archive -o v02.exe -Wl,--out-implib,libv02.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\v02.dir\linkLibs.rsp

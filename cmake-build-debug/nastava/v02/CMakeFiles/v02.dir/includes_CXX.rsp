@@ -1,0 +1,1 @@
+-I"E:/Programi/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include" -IE:/Programi/openGL/OpenGLvjezbe/third_party/glm -I"E:/Programi/openGL/OpenGLvjezbe/third_party/glew-2.1.0/include" -IE:/Programi/openGL/OpenGLvjezbe/third_party/stb -I"E:/Programi/openGL/OpenGLvjezbe/cmake-build-debug" -I"E:/Programi/openGL/OpenGLvjezbe/cmake-build-debug/nastava/v02"
