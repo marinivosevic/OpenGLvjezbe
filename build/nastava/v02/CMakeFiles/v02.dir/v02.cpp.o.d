@@ -393,8 +393,12 @@ nastava/v02/CMakeFiles/v02.dir/v02.cpp.o: \
  /usr/include/GL/glu.h /usr/include/GL/gl.h \
  /home/marin/projects/openGL/OpenGLvjezbe/third_party/glfw-3.3.2/include/GLFW/glfw3.h \
  /home/marin/projects/openGL/OpenGLvjezbe/build/nastava/v02/pathconfig.h \
+ /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/shaderClass.h \
  /usr/include/c++/11/fstream /usr/include/c++/11/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc
+ /usr/include/c++/11/bits/sstream.tcc \
+ /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VAO.h \
+ /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/VBO.h \
+ /home/marin/projects/openGL/OpenGLvjezbe/nastava/v02/EBO.h

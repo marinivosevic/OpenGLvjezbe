@@ -1,7 +1,7 @@
 #ifndef EBO_CLASS_H
 #define EBO_CLASS_H
 
-#include<gl/glew.h>
+#include<GL/glew.h>
 
 class EBO
 {

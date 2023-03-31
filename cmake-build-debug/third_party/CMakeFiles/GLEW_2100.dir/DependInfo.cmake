@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "E:/Programi/openGL/OpenGLvjezbe/third_party/glew-2.1.0/src/glew.c" "third_party/CMakeFiles/GLEW_2100.dir/glew-2.1.0/src/glew.c.obj" "gcc" "third_party/CMakeFiles/GLEW_2100.dir/glew-2.1.0/src/glew.c.obj.d"
+  "/home/marin/projects/openGL/OpenGLvjezbe/third_party/glew-2.1.0/src/glew.c" "third_party/CMakeFiles/GLEW_2100.dir/glew-2.1.0/src/glew.c.o" "gcc" "third_party/CMakeFiles/GLEW_2100.dir/glew-2.1.0/src/glew.c.o.d"
   )
 
 # Targets to which this target links.
